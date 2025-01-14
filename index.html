@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ...existing code... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- Ensure the path to your CSS file is correct -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ...existing code... -->
+    <header>
+        <h1>Anumala Vennela Reddy</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#work-experience">Work Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Software Engineer with 3 years of experience, specializing in developing efficient and scalable software solutions. I have worked extensively under Agile methodology, collaborating closely with cross-functional teams to deliver high-quality products. My background includes hands-on experience in both front-end and back-end development, and I am passionate about problem-solving and continuous learning. I am eager to take on new challenges and contribute to innovative projects in the tech industry.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Claims management systems</h3>
+            <p>Designed and developed a comprehensive claims management system for the insurance industry, streamlining the process of managing claims from submission to settlements.</p>
+            <p>4 Microservices are developed:</p>
+            <ul>
+                <li>AUTHORIZATION MICROSERVICE</li>
+                <li>MEMBER MICROSERVICE</li>
+                <li>CLAIMS MICROSERVICE</li>
+                <li>POLICY MICROSERVICE</li>
+            </ul>
+            <p>The User can insert the Claim details like:</p>
+            <ul>
+                <li>SUBMIT CLAIM: 1. Member ID 2. Hospital Name 3. Claim Amount 4. Benefit Id 5. Policy Name</li>
+            </ul>
+            <p>A Claim ID will be generated corresponding to the submitted claim.</p>
+            <p>CHECK STATUS: The User can check the status of a particular claim with the given claim ID. For instance, Claim is pending as more documents are needed for verification.</p>
+            <p>VIEW BILLS: The User can see if he/she has any pending bills along with the last premium paid date and late charges.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <h3>Sri Indu College of Engineering and Technology</h3>
+            <p>Bachelor of Science in Computer Science, 2019 - 2022</p>
+            <h3>Nishitha College of engineering and Technology</h3>
+            <p>BDiploma In Electrical & Electronics, 2016 - 2019</p>
+        </div>
+        <!-- Add more education details as needed -->
+    </section>
+
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <div class="work-experience">
+            <h3>Cognizant Technology Solutions</h3>
+            <p>Software Engineer, 2022 - Present</p>
+            <p>Responsibilities and achievements:</p>
+            <ul>
+                <li>Developed and maintained web applications using JavaScript, HTML, and CSS.</li>
+                <li>Collaborated with cross-functional teams to deliver high-quality products.</li>
+                <li>Implemented new features and fixed bugs based on user feedback.</li>
+            </ul>
+        </div>
+        <!-- Add more work experience details as needed -->
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certification">
+            <h3>AWS Certified Cloud Practitioner</h3>
+            <p>Issued by Amazon,</p>
+            <p><a href="https://www.yourcertificateurl.com" target="_blank">View Certificate</a></p> <!-- Add URL here -->
+        </div>
+        <!-- Add more certifications as needed -->
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <!-- Add more skills as needed -->
+            </ul>
+            <h3>Frameworks and Libraries</h3>
+            <ul>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="http://localhost:3000/submit_form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anumala Vennela. All rights reserved.</p>
+        <p><a href="https://github.com/vennelaaa" target="_blank">GitHub</a></p>
+    </footer>
+
+    <!-- Ensure the path to your JavaScript file is correct -->
+    <script src="scripts.js"></script>
+</body>
+</html>

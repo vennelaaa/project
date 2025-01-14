@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Beige background */
+    color: #333; /* Dark text */
+    padding-bottom: 100px; /* Add padding to the bottom */
+}
+
+header {
+    background: #fff; /* White background */
+    color: #333; /* Dark text */
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333; /* Dark text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    background: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #333; /* Dark text */
+    font-size: 2rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+.project, .education, .work-experience, .certification, .skills {
+    margin-bottom: 1.5rem;
+}
+
+.project h3, .education h3, .work-experience h3, .certification h3, .skills h3 {
+    margin-top: 0;
+    color: #333; /* Dark text */
+}
+
+footer {
+    background: #fff; /* White background */
+    color: #333; /* Dark text */
+    text-align: center;
+    padding: 1.5rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: #333; /* Dark text */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #333; /* Dark border */
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #333; /* Dark border on focus */
+    outline: none;
+}
+
+form button {
+    padding: 0.8rem;
+    border: none;
+    background: #333; /* Dark background */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #555; /* Darker background on hover */
+}
+
+button {
+    /* Ensure the button is visible */
+    display: inline-block;
+    /* Add any other styles you need */
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
